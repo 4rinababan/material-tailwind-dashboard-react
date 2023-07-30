@@ -44,6 +44,18 @@ export const routes = [
     ],
   },
   {
+    title: "Devices pages",
+    layout: "Device",
+    pages: [
+      {
+        icon: <ArrowRightOnRectangleIcon {...icon} />,
+        name: "Device",
+        path: "/sign-in",
+        element: <SignIn />,
+      },
+    ],
+  },
+  {
     title: "auth pages",
     layout: "auth",
     pages: [
